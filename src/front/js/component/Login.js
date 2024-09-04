@@ -33,7 +33,7 @@ export const Login = () => {
         console.log(response);
 
         if(response){
-            navigate('/single/:theid')
+            navigate('/single')
         }
     };
 
